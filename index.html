@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>three.js webgl - геометрические фигуры</title>
+<title>геометрические фигуры</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <link type="text/css" rel="stylesheet" href="https://threejs.org/examples/main.css">
@@ -79,12 +79,12 @@ function init() {
 
     // Разные текстуры для каждой стороны куба
     var materials = [
-        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/1.png') } ), // Сторона 1
-        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/2.png') } ), // Сторона 2
-        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/3.png') } ), // Сторона 3
-        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/4.png') } ), // Сторона 4
-        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/5.png') } ), // Сторона 5
-        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/6.png') } )  // Сторона 6
+        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/one.png') } ), // Сторона 1
+        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/two.png') } ), // Сторона 2
+        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/three.png') } ), // Сторона 3
+        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/four.png') } ), // Сторона 4
+        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/five.png') } ), // Сторона 5
+        new THREE.MeshBasicMaterial( { map: textureLoader.load('textures/six.png') } )  // Сторона 6
     ];
 
     // Куб с разными текстурами на каждой стороне
